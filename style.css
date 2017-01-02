@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/nexa/lightfree/Nexa_Free_Light-webfont.eot');
+    src: url('fonts/nexa/lightfree/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/nexa/lightfree/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('fonts/nexa/boldfree/Nexa_Free_Bold-webfont.eot');
+    src: url('fonts/nexa/boldfree/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/nexa/boldfree/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Nexa';
+    font-size: 14pt;
+}
+
+h1 {
+	font-family: 'Nexa';
+    text-align: right;
+}
+
+.container {
+	background-color: #f1f3f6;
+	border-left: 15px solid #0caba6;
+	border-right: 15px solid #0caba6;
+    min-height: 100vh;
+}
+
+.wrap {
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 30px 0 0;
+}
+
+.pos {
+    position: relative;
+}
+
+.wrap.pos {
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 80px 0 0 80px;
+}
+
+.pos>img {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+
+    border-radius: 100px;
+    background-color: #fbfbfb;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.wrap>h1, .wrap>h2, .wrap>h3{
+    margin: 5px;
+}
+.wrap>p, .wrap>h2, .wrap>h3{
+    margin: 5px;
+}
